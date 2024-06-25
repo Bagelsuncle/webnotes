@@ -1,6 +1,7 @@
 import React from "react";
 import Nav from "./components/nav";
 import Steps from "./components/steps";
+import Links from "./components/links";
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
         <Nav />
       </div>
       <div>
+        <Links />
         <Steps />
       </div>
     </div>
