@@ -1,0 +1,14 @@
+Create a New Branch:
+1. Make sure you are on main, if not - git switch main
+2. git pull
+2. git switch -C alex-branch (Creates and Names new Branch)
+3. git add .
+4. git commit -m "changed orange to green"
+5. git push
+6. git push --set-upstream origin alex-branch
+7. Do a pull request in GitHub - Merge changes into main
+8. Confirm all steps for the pull request, if it does not work, you could not be merging off of main
+9. git switch main
+10. git pull main
+
+(Start over at Step 2)
