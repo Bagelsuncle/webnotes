@@ -6,12 +6,12 @@ export const StepTwo = () => {
       <h1 className="text-lg font-semibold">
         Step 2: Prepare for first push to Git Hub
       </h1>
-      <ol>
+      <ol className="list-decimal pl-5">
         <li>Wipe Global CSS (Keep Tailwind)</li>
         <li>IN VS CODE TERMINAL:</li>
         <li> "git add ."</li>
         <li>"git commit -m "first push""</li>
-        <li>"git push"</li>
+        <li>"git push""</li>
       </ol>
     </div>
   );

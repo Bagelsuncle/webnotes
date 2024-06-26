@@ -11,8 +11,11 @@ import React from "react";
 
 const Links = () => {
   return (
-    <div>
-      <div className="grid grid-cols-2 gap-4">
+    <div
+      className="flex justify-center items-start pb-12 pt-12
+  "
+    >
+      <div className="grid grid-cols-2 gap-4 w-4/5 max-w-4xl">
         <Link
           className="bg-zinc-200 shadow p-3 rounded-md w-full h-full flex flex-row  justify-center items-center gap-4"
           href="https://github.com"

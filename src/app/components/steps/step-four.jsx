@@ -6,7 +6,7 @@ const StepFour = () => {
       <h1 className="text-lg font-semibold">
         Step 4: Create Components in VS code
       </h1>
-      <ol>
+      <ol className="list-decimal pl-5">
         <li>Create a components dir in your local project</li>
         <li>Create any needed component</li>
         <li>Import components into parent component</li>
