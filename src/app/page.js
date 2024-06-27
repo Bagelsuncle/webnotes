@@ -1,7 +1,15 @@
+"use client";
 import React from "react";
 import Nav from "./components/nav";
 import Links from "./components/links";
-import Steps from "./components/steps";
+import Steps from "./components/stepOne";
+import StepOne from "./components/stepOne";
+import ToggleParagraph from "./components/toggleParagraph";
+import StepTwo from "./components/stepTwo";
+import StepFour from "./components/stepFour";
+import StepFive from "./components/stepFive";
+import StepThree from "./components/stepThree";
+import Play from "./components/play";
 
 const StepsArray = [
   { title: "Step 1 create New Repo", text: "Step 1 Description" },
@@ -21,8 +29,20 @@ const StepsArray = [
 
 const Home = () => {
   return (
-    <div>
-      <Nav />
+    <div className="">
+      <div className="">
+        <Nav />
+        <div className="max-w-screen-full flex justify-center flex-col">
+          <StepOne className="" />
+          <StepTwo className="" />
+          <StepThree className="" />
+          <StepFour className="" />
+          <StepFive />
+
+          <Links />
+        </div>
+        <Play />
+      </div>
     </div>
   );
 };
