@@ -7,7 +7,7 @@ const StepTwo = () => {
     setIsVisible(!isVisible);
   };
   return (
-    <div className="flex m-2 p-2 shadow-lg rounded-md justify-center bg-yellow-300 flex-col">
+    <div className="flex shadow-lg rounded-md justify-center bg-yellow-300 flex-col">
       <div className="flex justify-center">
         <h1 className=" font-bold text-2xl text-blue-950">
           {" "}
@@ -20,17 +20,17 @@ const StepTwo = () => {
 
       {isVisible && (
         <div className="flex justify-center">
-          <p className="text-2xl text-blue-950 font-bold flex">
+          <div className="text-2xl text-blue-950 font-bold flex">
             <ol className="flex flex-col ml-24 text-orange-950 text-xl list-decimal ">
               <li>Clean Out Pages</li>
               <li>Wipe Global CSS</li>
               <li>Add to Git Hub</li>
               <li>Git add (.)</li>
-              <li>git commit - "first push"</li>
+              <li>git commit - &quot;first push&quot;</li>
               <li>git push</li>
               <li>Now your local changes are in Git Hub</li>
             </ol>
-          </p>
+          </div>
         </div>
       )}
     </div>

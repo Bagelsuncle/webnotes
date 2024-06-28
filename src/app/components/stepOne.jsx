@@ -7,7 +7,7 @@ const StepOne = () => {
     setIsVisible(!isVisible);
   };
   return (
-    <div className="flex m-2 p-2 shadow-lg rounded-md justify-center bg-red-300 flex-col">
+    <div className="flex shadow-lg rounded-md justify-center bg-red-300 flex-col">
       <div className="flex justify-center">
         <h1 className=" font-bold text-2xl text-blue-950">
           {" "}
@@ -20,17 +20,17 @@ const StepOne = () => {
 
       {isVisible && (
         <div className="flex justify-center">
-          <p className="text-2xl text-blue-950 font-bold flex">
-            <ol className="flex flex-col ml-8 text-orange-950 text-xl list-decimal ">
+          <div className="text-2xl text-blue-950 font-bold flex">
+            <div className="flex flex-col ml-8 text-orange-950 text-xl list-decimal ">
               <li>Create a Repo in GitHub</li>
               <li>Copy Repo Link</li>
               <li>Clone Repo to Local Machine</li>
-              <li>"cd" to proper directory</li>
+              <li>&quot;cd&quot; to proper directory</li>
               <li>git clone (REPO)</li>
               <li>CD to Repo</li>
               <li> NPX create-next-app@latest (.)</li>
-            </ol>
-          </p>
+            </div>
+          </div>
         </div>
       )}
     </div>
