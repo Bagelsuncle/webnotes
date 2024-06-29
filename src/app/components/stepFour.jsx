@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const StepFour = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -14,7 +15,7 @@ const StepFour = () => {
           Step Four: Create Components
         </h1>
         <button onClick={toggleParagraph} className="text-3xl ">
-          ⬇️
+          ⬇<FontAwesomeIcon icon="fa-regular fa-arrow-down shadow-lg" />
         </button>
       </div>
 

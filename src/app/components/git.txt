@@ -11,4 +11,6 @@ Create a New Branch:
 9. git switch main
 10. git pull main
 
+git branch -d testbranch (Delete branch)
+
 (Start over at Step 2)

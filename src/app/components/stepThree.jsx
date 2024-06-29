@@ -1,8 +1,9 @@
 import React from "react";
 import { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const StepThree = () => {
-  const [isVisible, setIsVisible] = useState(true);
+  const [isVisible, setIsVisible] = useState(false);
   const toggleParagraph = () => {
     setIsVisible(!isVisible);
   };
@@ -14,7 +15,7 @@ const StepThree = () => {
           Step Three: Deploy With Vercel
         </h1>
         <button onClick={toggleParagraph} className="text-3xl ">
-          ⬇️
+          ⬇<FontAwesomeIcon icon="fa-regular fa-arrow-down shadow-lg" />
         </button>
       </div>
 

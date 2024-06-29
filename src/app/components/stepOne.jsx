@@ -1,3 +1,4 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { useState } from "react";
 
@@ -14,7 +15,7 @@ const StepOne = () => {
           Step One: Create Repo
         </h1>
         <button onClick={toggleParagraph} className="text-3xl ">
-          ⬇️
+          ⬇<FontAwesomeIcon icon="ml-16 fa-regular fa-arrow-down shadow-lg" />
         </button>
       </div>
 

@@ -9,6 +9,7 @@ import StepTwo from "./components/stepTwo";
 import StepFour from "./components/stepFour";
 import StepFive from "./components/stepFive";
 import StepThree from "./components/stepThree";
+import TestingContainer from "./components/testingContainer";
 
 const StepsArray = [
   { title: "Step 1 create New Repo", text: "Step 1 Description" },
@@ -32,9 +33,14 @@ const Home = () => {
       <div className="">
         <Nav />
         <div className="max-w-screen-full flex justify-center flex-col">
-          <Steps />
+          <StepOne />
+          <StepTwo />
+          <StepThree />
+          <StepFour />
+          <StepFive />
 
           <Links />
+          <TestingContainer />
         </div>
       </div>
     </div>
