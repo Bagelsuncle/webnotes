@@ -4,6 +4,7 @@ import Nav from "./components/nav";
 import Links from "./components/links";
 import TestingContainer from "./components/testingContainer";
 import StepList from "./components/stepList";
+import ExperimentingContainer from "./components/experimentingContainer";
 
 const Home = () => {
   useEffect(() => {
@@ -29,6 +30,7 @@ const Home = () => {
             <StepList />
             <Links />
             <TestingContainer />
+            <ExperimentingContainer />
           </div>
         </div>
       </div>
